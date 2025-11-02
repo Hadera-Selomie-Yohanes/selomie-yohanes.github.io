@@ -48,7 +48,8 @@ git push origin main
     </nav>
     <section id="about">
         <h2>About Me</h2>
-        <img src="profile_photo.png"> <!-- Upload your photo to the repo and rename if needed -->
+        <img src="profile_photo.png"> <img width="916" height="1100" alt="profile_photo" src="https://github.com/user-attachments/assets/cf0c1c9b-7068-464e-989a-db40a53787be" />
+
         <p> Master’s student in Management Science and Engineering | Passionate about Data-Driven Decision Making | Beihang University Scholar</p>
         <p> Currently pursuing a Master’s degree at Beihang University in Beijing, China, with a focus on Business Data Analytics, Operations Research, Supply Chain Management, Operation Management, and Project Management. Dedicated to solving real-world problems by leveraging Advanced AI techniques and scientific methodologies.</p>
         <p> My expertise spans Accounting, programming (Python and R), business data analysis, and optimization techniques. I specialize in applying data-driven approaches to enhance operational efficiency, optimize business operations and projects, and develop models for smarter decision-making.</p>
