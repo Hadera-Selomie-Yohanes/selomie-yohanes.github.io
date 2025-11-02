@@ -7,31 +7,15 @@ git push origin main
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Selomie Yohanes Hadera, Master's student in Management Science and Engineering at Beihang University, specializing in data-driven decision making.">
+    <meta name="keywords" content="Selomie Yohanes Hadera, portfolio, data analytics, Python, R, operations research">
+    <meta property="og:title" content="Selomie Yohanes Hadera - Portfolio">
+    <meta property="og:description" content="Passionate about data-driven solutions in business and engineering.">
+    <meta property="og:image" content="https://selomie-yohanes.github.io/profile-photo.jpg">
+    <meta property="og:url" content="https://selomie-yohanes.github.io">
     <title>Selomie Yohanes Hadera - Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
-        header { background-color: #333; color: #fff; padding: 20px; text-align: center; }
-        h1 { margin: 0; font-size: 2.5em; }
-        nav { background-color: #444; padding: 10px; }
-        nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; }
-        nav li { margin: 0 15px; }
-        nav a { color: #fff; text-decoration: none; font-weight: bold; transition: color 0.3s; }
-        nav a:hover { color: #ccc; }
-        section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
-        #about { background-color: #fff; text-align: center; }
-        #about img { max-width: 200px; border-radius: 50%; margin-bottom: 20px; }
-        #education, #skills, #projects, #contact { background-color: #e9e9e9; }
-        ul { list-style-type: disc; padding-left: 20px; }
-        footer { background-color: #333; color: #fff; text-align: center; padding: 10px; }
-        /* Responsive design */
-        @media (max-width: 768px) {
-            nav ul { flex-direction: column; }
-            nav li { margin: 10px 0; }
-            h1 { font-size: 2em; }
-            section { padding: 20px 10px; }
-            #about img { max-width: 150px; }
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -46,23 +30,21 @@ git push origin main
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <img src="<img width="300" height="300" alt="edited_profile_photo" src="https://github.com/user-attachments/assets/145e202e-a80d-41f5-8ecf-ad44e555b9d6"/>
-
-        <p> Master’s student in Management Science and Engineering | Passionate about Data-Driven Decision Making | Beihang University Scholar</p>
-        <p> Currently pursuing a Master’s degree at Beihang University in Beijing, China, with a focus on Business Data Analytics, Operations Research, Supply Chain Management, Operation Management, and Project Management. Dedicated to solving real-world problems by leveraging Advanced AI techniques and scientific methodologies.</p>
-        <p> My expertise spans Accounting, programming (Python and R), business data analysis, and optimization techniques. I specialize in applying data-driven approaches to enhance operational efficiency, optimize business operations and projects, and develop models for smarter decision-making.</p>
+        <p>📊 Master’s student in Management Science and Engineering | Passionate about Data-Driven Decision Making | Beihang University Scholar</p>
+        <p>📚 Currently pursuing a Master’s degree at Beihang University in Beijing, China, with a focus on Business Data Analytics, Operations Research, Supply Chain Management, Operation Management, and Project Management. Dedicated to solving real-world problems by leveraging Advanced AI techniques and scientific methodologies.</p>
+        <p>📈 My expertise spans Accounting, programming (Python and R), business data analysis, and optimization techniques. I specialize in applying data-driven approaches to enhance operational efficiency, optimize business operations and projects, and develop models for smarter decision-making.</p>
         <p>Join me in exploring innovative solutions to complex challenges and shaping a data-driven future. Let’s connect!</p>
     </section>
-    <section id="education">
+    <section id="education" class="section">
         <h2>Education</h2>
         <ul>
             <li><strong>Master’s in Management Science and Engineering</strong> - Beihang University, Beijing, China (Current)</li>
             <!-- Add more education details if available -->
         </ul>
     </section>
-    <section id="skills">
+    <section id="skills" class="section">
         <h2>Skills</h2>
         <ul>
             <li>Python</li>
@@ -79,7 +61,7 @@ git push origin main
             <li>Responsive Design</li>
         </ul>
     </section>
-    <section id="projects">
+    <section id="projects" class="section">
         <h2>Projects</h2>
         <ul>
             <li><strong>Project 1:</strong> A personal blog built with HTML and CSS.</li>
@@ -87,7 +69,7 @@ git push origin main
             <!-- Add real projects here based on your experience -->
         </ul>
     </section>
-    <section id="contact">
+    <section id="contact" class="section">
         <h2>Contact</h2>
         <p>📞 Contact me:</p>
         <p>📧 Email: soliyohannes4@gmail.com</p>
@@ -98,4 +80,112 @@ git push origin main
     </footer>
 </body>
 </html>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #bbb;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Card-like shadow */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Subtle animation */
+}
+
+.section:hover {
+    transform: translateY(-5px);
+}
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #ddd; /* Professional border */
+}
+
+#education, #skills, #projects, #contact {
+    background-color: #e9e9e9;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .section {
+        padding: 20px 10px;
+    }
+    #about img {
+        max-width: 150px;
+    }
+}
