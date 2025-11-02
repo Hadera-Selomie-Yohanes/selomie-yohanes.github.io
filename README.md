@@ -41,7 +41,7 @@ git push origin main
         <h2>Education</h2>
         <ul>
             <li><strong>Master’s in Management Science and Engineering</strong> - Beihang University, Beijing, China (Current)</li>
-            <!-- Add more education details if available -->
+            <li><strong> BA in Accounting</strong> - College of Business and Social Sciences, Adikeyh, Eritrea </li>
         </ul>
     </section>
     <section id="skills" class="section">
